@@ -1,11 +1,11 @@
 {
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -p 3083",
     "build": "next build",
-    "start": "next start",
+    "start": "next start -p 3083",
     "lint": "next lint"
   },
-  
+
   "dependencies": {
     "next": "^14.0.1",
     "react": "^18.2.0",

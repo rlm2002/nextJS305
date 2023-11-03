@@ -1,3 +1,8 @@
+import CountButton from "./CountButton"
+
 export default function Page() {
-    return <h1>Hello, Next.js!</h1>
+    return <div>
+        <CountButton incr={1}/>
+        <CountButton incr={5}/>
+    </div>
   }
