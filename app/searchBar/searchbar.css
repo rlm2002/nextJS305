@@ -1,0 +1,9 @@
+.allProducts{
+    display: flex;
+    flex-flow: wrap;
+}
+.aProduct{
+    border: 2px solid grey;
+    padding: 1em;
+    margin: 1em;
+}
