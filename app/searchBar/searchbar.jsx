@@ -13,7 +13,7 @@ export default function SearchBar() {
             .then(response => response.json())
             .then(products => { 
                 const filtered = products.filter((el) => {return el.title.toLowerCase().includes(searchString.toLowerCase())})
-                const currentFilter = products.map((product, index) => {
+                const currentFilter = filtered.map((product, index) => {
                     return (<div className="aProduct" key={index}>
                         <p>{product.title}</p>
                         <p>${product.price}</p>
